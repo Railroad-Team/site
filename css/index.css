@@ -34,10 +34,10 @@ nav {
 nav li {
     display: inline;
     float: right;
+    padding-top: 10px;
 }
 
 nav li a {
-    display: block;
     padding: 8px;
     color: aliceblue;
 }
