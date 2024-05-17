@@ -1,3 +1,14 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #121212;
+    color: #ffffff;
+}
 .slideshow {
     display: flex;
     align-items: center;

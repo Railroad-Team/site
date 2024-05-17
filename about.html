@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="displayContributors()">
     <h1>About</h1>
+    <p>Railroad is a community made project made to make creating minecraft mods more convenient.Some features include: Blockbench integration, Built in IDE, and the ability to easily create projects with your chosen modloader and dependencies!</p>
     <nav>
         <div class="navbar">
             <div class="navbar-left">
@@ -22,5 +24,15 @@
             </div>
         </div>
     </nav>
+    <div class="contributors">
+        <h2 id="contriblist"></h2>
+        <div id="contributors">
+
+        </div>
+    </div>
+    <div class="info">
+        <p>Our contributors are AMAZING!!!</p>
+    </div>
+<script src="scripts/contributors.js"></script>
 </body>
 </html>

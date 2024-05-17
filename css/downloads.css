@@ -1,3 +1,15 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
 .content-container button {
     background-color: cornflowerblue;
     border: none;
@@ -11,7 +23,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 20px; /* adjust as needed */
+    margin-bottom: 20px;
 }
 .downloads {
     display: flex;
@@ -24,7 +36,7 @@
 .other-downloads {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* adjust as needed */
+    margin-top: 20px;
 }
 #downloads {
     display: flex;
@@ -34,11 +46,11 @@
 }
 
 .button-container button {
-    width: 200px; /* adjust as needed */
+    width: 200px;
 }
 .downloads button {
     margin-top: 15px;
-    width: 180px; /* adjust as needed */
+    width: 180px;
     cursor: pointer;
 }
 .info h1 {
