@@ -5,3 +5,6 @@ node_modules
 dist
 .cache
 .idea/
+index.js
+package.json
+package-lock.json
