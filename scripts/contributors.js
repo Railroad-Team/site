@@ -38,7 +38,7 @@ async function displayContributors() {
     let placeholder = document.createElement('div');
     placeholder.innerHTML = `
         <a href="" target="_blank">
-            <img src="/images/exitsite.svg" alt="placeholder" />
+            <img src="images/exitsite.svg" alt="placeholder" />
         </a>
     `;
     contributorsList.appendChild(placeholder);
