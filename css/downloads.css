@@ -1,0 +1,47 @@
+.content-container button {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    height: 50px;
+}
+.button-container {
+    flex-basis: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; /* adjust as needed */
+}
+.downloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.other-downloads {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* adjust as needed */
+}
+#downloads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-container button {
+    width: 200px; /* adjust as needed */
+}
+.downloads button {
+    margin-top: 15px;
+    width: 180px; /* adjust as needed */
+    cursor: pointer;
+}
+.info h1 {
+    text-align: center;
+    margin-top: 20px;
+}
