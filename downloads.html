@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Railroad IDE</title>
+    <meta property="og:title" content="Download Railroad IDE">
+    <meta property="og:description" content="Download the latest version of Railroad IDE for your operating system.">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://railroad-team.github.io/downloads.html">
+    <meta name="theme-color" content="#205650">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/downloads.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body onload="getLatestVer();">
+<nav>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="images/logo.png" alt="Railroad IDE Logo">
+            <h1 id="logotext">Railroad</h1>
+        </div>
+        <div class="navbar-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="downloads.html">Downloads</a>
+            <a href="https://discord.turtywurty.dev/">Discord</a>
+        </div>
+    </div>
+</nav>
+<div class="info">
+    <h1>Downloads</h1>
+    <h2 id="latestver"></h2>
+    <script src="scripts/latestver.js"></script>
+</div>
+<div class="content-container">
+    <p>Download the latest version of Railroad IDE for your operating system.</p>
+    <div class="downloads">
+        <a href="https://www.github.com/Railroad-Team/Railroad/releases/latest">
+            <button>Download latest</button>
+        </a>
+        <a href="https://www.github.com/Railroad-Team/Railroad/releases">
+            <button>All Downloads</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>

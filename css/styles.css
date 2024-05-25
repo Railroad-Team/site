@@ -1,0 +1,57 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+.navbar-left img {
+    object-fit: contain;
+    max-height: none;
+    max-width: none;
+    width: 7%;
+    height: 7%;
+    margin-left: 15px;
+}
+
+.navbar div {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 25px;
+}
+.navbar-left {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar-left h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 0;
+}
