@@ -14,9 +14,9 @@ async function getRedirectedUrl(url) {
 
 async function getLatestVer(){
     const redirected = await getRedirectedUrl("https://www.github.com/Railroad-team/Railroad/releases/latest")
-    let ver = redirected.replace("https://www.github.com/Railroad-team/Railroad/releases/tag/", "")
+    let ver = redirected.replace("https://github.com/Railroad-team/Railroad/releases", "")
     
-    if (ver == undefined) {
+    if (ver == "") {
         ver = "1.0.0"
     }
     
